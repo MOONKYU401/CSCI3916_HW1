@@ -7,7 +7,7 @@ chai.use(chaiHttp);
 
 describe('POST /', () => {
   it('should return a JSON object with the accept header', (done) => {
-    const sampleBody = { message: "Hello, World!" };
+    const sampleBody = {message:"Hello,World, CU Denver" };
 
     chai
       .request(server)
